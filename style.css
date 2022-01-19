@@ -1,0 +1,89 @@
+body {
+    font-size: 100%; /*Tamanho da fonte*/
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #800000 85.61%);
+
+}
+
+#inicial {
+    background-color: rgba(28, 28, 28, 0.45);
+    border: 2px solid #4F4F4F;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 1%;
+
+}
+
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.foto-perfil img {
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px solid #4F4F4F;
+    margin-top: 30px;
+    
+}
+
+.nome {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.atividade {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    list-style-position: inside;
+    margin-bottom: 2px;
+    padding-bottom: 30px;    
+      
+}
+
+
+.linkedin {
+    list-style-image: url(/assets/linkedin.png);
+     
+}
+
+.gmail {
+    list-style-image: url(/assets/gmail.png);
+}
+
+.github {
+    list-style-image: url(/assets/github.png);
+}
+
+.whatsapp {
+    list-style-image: url(/assets/whatsapp.png);
+}
+
+.linguagens {
+   text-align: center;
+         
+}
